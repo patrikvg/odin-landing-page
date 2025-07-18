@@ -73,3 +73,43 @@ a {
     flex: 1;
     justify-content: center;
 }
+
+.second-section {
+    height: 30vh;
+    margin: 0 100px 0 100px;
+}
+
+.second-section h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.first-element, .second-element, .third-element, .fourth-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+    text-align: center;
+}
+
+.text {
+    font-size: 16px;
+    color: grey;
+}
