@@ -36,7 +36,7 @@ a {
     background-color: #1f2937;
     padding: 80px 40px 0 100px;
     display: flex;
-    height: 18vh;
+    height: 16vh;
     width: 100vw;
     overflow-x: hidden;
 }
@@ -167,6 +167,10 @@ a {
     font-size: 18px;
 }
 
+.sing-up-text h1 {
+    font-size: 24px;
+}
+
 .sign-up-btn {
     border-color: white;
     border-radius: 5px;
@@ -180,4 +184,13 @@ a {
 .sign-up-btn-container {
     text-align: center;
     margin: auto;
+}
+
+.footer {
+    background-color: #1f2937;
+    color:#e5e7eb;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
