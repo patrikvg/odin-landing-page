@@ -145,3 +145,39 @@ a {
     text-align: right;
     font-weight: bold;
 }
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 20px 0;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    width: 700px;
+    display: flex;
+    padding: 20px 60px;
+    border-radius: 5px;
+    color: white;
+}
+
+.sing-up-text p {
+    font-size: 18px;
+}
+
+.sign-up-btn {
+    border-color: white;
+    border-radius: 5px;
+    min-width: 95px;
+    min-height: 30px;
+    color: white;
+    background-color: #3882f6;
+    font-weight: bold;
+}
+
+.sign-up-btn-container {
+    text-align: center;
+    margin: auto;
+}
