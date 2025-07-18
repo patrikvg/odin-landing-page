@@ -99,6 +99,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 40px;
+    /*flex-wrap: wrap -> könnte ich verwenden, gut für handy weil die boxen sich dann selber sortieren wenn das fenster kleiner wird, hier nicht implementirer weil ein overflow ensteht wenn man den rest nicht anpasst*/
 }
 
 .first-element, .second-element, .third-element, .fourth-element {
