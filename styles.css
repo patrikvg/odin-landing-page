@@ -12,13 +12,13 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px 40px;
+    padding: 16px 100px;
     background-color: #1f2937;
     color: #e5e7eb;
 }
 
 .logo {
-    font-weight: 900;
+    font-weight: bold;
 }
 
 ul {
@@ -30,4 +30,46 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.first-section {
+    background-color: #1f2937;
+    padding: 80px 40px 0 100px;
+    display: flex;
+    height: 18vh;
+    width: 100vw;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.main-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-signup-btn {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border-color: #3882f6;
+    margin-top: 10px;
+}
+
+.main-img {
+    max-height: 200px;
+}
+
+.right-side {
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
