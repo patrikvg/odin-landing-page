@@ -34,10 +34,9 @@ a {
 
 .first-section {
     background-color: #1f2937;
-    padding: 80px 40px 0 100px;
+    padding: 80px 100px 80px 100px;
     display: flex;
     height: 16vh;
-    width: 100vw;
     overflow-x: hidden;
 }
 
